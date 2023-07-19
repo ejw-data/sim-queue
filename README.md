@@ -18,7 +18,7 @@ Basic waiting line queueing system
 
 
 
-# Installations
+## Installations
 * R
     1.  Ensure R is installed
     1.  Ensure R is added to the Path (PC):  `C:/Program Files/R/<version>/bin`
@@ -30,3 +30,6 @@ Basic waiting line queueing system
 
 ```Note:  rpy2 requires R 4.0+ and Python 3.7+ and older version of Visual Studio Build Tool (like 2019) can cause install errors.  I needed to uninstall the older tool and reinstall the most recent version.  Visual Studio Build Tools 2022 works fine with R 4.2 and Python 3.10 for my setup```  
 
+## Improvements
+* use quequecomputer and for loop over the number of servers but to make it better find the average of at least 20 points for each observer.  Then plot it.  
+* use quequecomputer and simulate something like a covid processing center to determine the number of people and building size.
