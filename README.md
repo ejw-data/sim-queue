@@ -9,7 +9,19 @@ Author:  Erin James Wills, ejw.data@gmail.com
 
 ## Overview  
 <hr>  
-Basic waiting line queueing system
+Basic waiting line queueing system  
+
+## Excel Simulations
+1.  `queue-sim.xlsm` - Queue system that calculates arrivals and service time based on a normal distribution and generates the wait time, leaving time, and number of people in the queue.  
+
+## R Simulations
+1.  `queue_sim.ipynb` - Python (utilizing R package) version of the Excel `queue-sim.xlsm`
+1.  `chained_queue_sim.ipynb` - Continuation of the `queue_sim.ipynb` that illustrates how one queue can feed into multiple other queues.  
+
+## Python Simulations
+1.  `queue_sim.ipynb` - Python version of the Excel `queue-sim.xlsm`.  Uses basic Python specifically scipy and numpy.  
+
+
 
 ## Technologies
 * Excell
